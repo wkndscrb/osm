@@ -11,6 +11,7 @@ Hydraten und Wasserentnahmestellen haben die folgenden Eigenschaften
 |emergency:tpye |underground| Unterflurhydrant|
 |emergency:tyoe |pillar| Überflurhydrant|
 |emergency:type: |pipe | Verschlossenes Rohr|
+|fire_hydrant:diameter| 100 | Durchmesser der Leitung|
 
 Das Skript setFireHydrants.py erstellt Wasserentnahmestellen an Geokordinaten. Die Daten (Art der Wasserentnahmestelle und Koordinaten) erhält das Skript aus der einer JSON Datei. Ein Beispiel wie die JSON Datei aufgebaut sein muss ist der Inhalt der Datei data/WES.json. 
 
