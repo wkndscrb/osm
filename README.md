@@ -4,8 +4,9 @@ Hydraten und Wasserentnahmestellen haben die folgenden Eigenschaften
 
 |Parameter|Wert|Beschreibung|
 |---|---|---|
-|emergency: |suction_point | Saugstelle|
-|emergency: |water_tank | Löschteich|
+|emergency: |suction_point | Saugstelle -> Der Typ muss ebenfalls "suction_point" sein|
+|emergency: |water_tank | Wassertank/Wasserreservoir -> Der Typ muss ebenfalls "water_tank" sein|
+|water_tank:volumen | 300 m3 |Volumen im Tank, kein Pflichtfeld | 
 |emergency: |fire_hydrant | Hydrant|
 |emergency:tpye |underground| Unterflurhydrant|
 |emergency:tyoe |pillar| Überflurhydrant|
