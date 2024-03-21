@@ -1,0 +1,24 @@
+[
+    {
+        "type": "fire_hydrant",
+        "subype": "underground",
+        "lon": "xx.xxxxxxxx",
+        "lat": "xx.xxxxxxxx"
+    },
+    {
+        "type": "fire_hydrant",
+        "subtype": "pillar",
+        "lon": "xx.xxxxxxxx",
+        "lat": "xx.xxxxxxxx"
+    },
+    {
+        "type": "suction_point",
+        "lon": "xx.xxxxxxxx",
+        "lat": "xx.xxxxxxxx"
+    },
+    {
+        "type": "water_tank",
+        "lon": "xx.xxxxxxxx",
+        "lat": "xx.xxxxxxxx"
+    }
+]
