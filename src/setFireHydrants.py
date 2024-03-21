@@ -23,7 +23,7 @@ def main():
         # Check if hydrant data already exists at the given coordinates
         query = f"""
         [out:json];
-        node["emergency"="fire_hydrant"]({float(hydrant['lat']) - 0.0001},{float(hydrant['lon']) - 0.0001},{float(hydrant['lat']) + 0.0001},{float(hydrant['lon']) + 0.0001});
+        node["emergency"={(hydrant['type'])}]({float(hydrant['lat']) - 0.0001},{float(hydrant['lon']) - 0.0001},{float(hydrant['lat']) + 0.0001},{float(hydrant['lon']) + 0.0001});
         out body;
         """
         result = checker.query(query)
